@@ -1,0 +1,12 @@
+{
+  "name": "Edana",
+  "displayName": "Edana",
+  "expo": {
+    "name": "Edana",
+    "slug": "Edana",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
