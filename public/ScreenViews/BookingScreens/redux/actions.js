@@ -1,0 +1,36 @@
+const actions = {
+    GET_CART: 'GET_CART',
+    GET_CART_SUCCESS: 'GET_CART_SUCCESS',
+    CREATE_ORDER_SUCCESS: 'CREATE_ORDER_SUCCESS',
+    ADD_BOOKING_ITEM: 'ADD_CART_ITEM',
+    ADD_BOOKING_MANUAL: 'ADD_CART_MANUAL',
+    ADD_BOOKING_ITEM_SUCCESS: 'ADD_CART_ITEM_SUCCESS',
+    DELETE_CART_ITEM: 'DELETE_CART_ITEM',
+    DELETE_SELECTED_ITEM: 'DELETE_SELECTED_ITEM',
+    UPDATE_CART_ITEM: 'UPDATE_CART_ITEM',
+    UPDATE_CART_ITEM_SERVICE: 'UPDATE_CART_ITEM_SERVICE',
+    GET_CART_COUNT: 'GET_CART_COUNT',
+    GET_CART_COUNT_SUCCESS: 'GET_CART_COUNT_SUCCESS',
+    LOGOUT: 'LOGOUT',
+    SET_SERVICE: 'SET_SERVICE',
+    SET_SERVICE_SUCCESS: 'SET_SERVICE_SUCCESS'
+  }
+
+
+export const add_booking = () => {
+    return {
+        type: actions.ADD_BOOKING_ITEM
+    }
+}
+
+export const setService = (numberPeople, Service) => {
+  return {
+    type: actions.SET_SERVICE,
+    numberPeople,
+     Service
+  }
+}
+
+
+
+  export default actions
